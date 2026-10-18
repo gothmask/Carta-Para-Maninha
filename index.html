@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#06120d">
+  <title>Uma surpresa mágica 💚</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div id="stars" class="stars"></div>
+  <div id="magicLayer" class="magic-layer"></div>
+
+  <header class="header">
+    <div class="header-symbol">✦</div>
+    <p>UMA CORRESPONDÊNCIA DE HOGWARTS</p>
+    <div class="header-line"></div>
+    <span class="house-name">SONSERINA</span>
+  </header>
+
+  <main>
+    <!-- TELA INICIAL -->
+    <section id="intro" class="intro">
+      <div class="crest">🐍</div>
+
+      <p class="eyebrow">UMA SURPRESA FEITA COM CARINHO</p>
+
+      <h1>Uma pequena<br>
+        <span>dose de magia</span>
+      </h1>
+
+      <p class="intro-text">
+        Algumas coisas não precisam ser compradas.<br>
+        Só precisam ser feitas de coração.
+      </p>
+
+      <button id="openEnvelope" class="envelope-button"
+        type="button" aria-label="Abrir a carta">
+        <div class="envelope" id="envelope">
+          <div class="letter-preview">
+            <span class="preview-top">HOGWARTS</span>
+            <span class="preview-snake">🐍</span>
+            <span class="preview-bottom">UMA CARTA PARA VOCÊ</span>
+          </div>
+
+          <div class="envelope-back"></div>
+          <div class="envelope-front"></div>
+          <div class="envelope-flap"></div>
+          <div class="wax-seal">S</div>
+        </div>
+      </button>
+
+      <p class="click-hint" id="clickHint">
+        ✦ CLIQUE NO ENVELOPE PARA ABRIR ✦
+      </p>
+
+      <p class="little-note">Uma mensagem especial espera por você...</p>
+    </section>
+
+    <!-- CARTA DE ANIVERSÁRIO -->
+    <section id="birthdayCard" class="birthday-card hidden">
+      <div class="card-frame">
+        <article class="card-content">
+          <div class="card-top-symbol">🐍</div>
+
+          <p class="eyebrow">UMA MENSAGEM DO CORAÇÃO</p>
+
+          <h2>Feliz aniversário,<br>
+            <span id="herName">minha pessoa especial</span>!
+          </h2>
+
+          <div class="divider"><span>✦</span></div>
+
+          <p class="letter-text">
+            Hoje é o seu dia, e eu queria fazer alguma coisa
+            especial para você. Algo que não fosse apenas
+            um presente, mas uma lembrança feita com carinho.
+          </p>
+
+          <p class="letter-text">
+            Eu não tenho muito para te dar. Talvez eu não consiga
+            comprar o presente mais caro ou mais incrível do mundo...
+            mas existe uma coisa que eu posso oferecer:
+            meu tempo, minha dedicação e meu carinho.
+          </p>
+
+          <p class="letter-text highlight">
+            Eu levei horas da minha noite para criar este cartão
+            para você. Cada detalhe foi feito pensando em você,
+            porque queria que recebesse algo único, feito por mim.
+          </p>
+
+          <p class="letter-text">
+            Você é minha irmã de consideração, mas o carinho
+            que sinto por você não precisa de laços de sangue
+            para ser verdadeiro. Família também é quem a vida
+            coloca no nosso caminho e o coração escolhe guardar.
+          </p>
+
+          <p class="letter-text">
+            Neste novo ciclo, desejo que nunca faltem saúde,
+            amor, felicidade, coragem e motivos para sorrir.
+            Que seus sonhos encontrem caminhos para se realizar
+            e que você descubra todos os dias algo bom na vida.
+          </p>
+
+          <p class="letter-text">
+            Que você tenha a coragem da Grifinória, a inteligência
+            da Corvinal, o coração da Lufa-Lufa e, claro,
+            a elegância e a determinação da Sonserina! 😂🐍
+          </p>
+
+          <p class="letter-text">
+            Independentemente das dificuldades que aparecerem,
+            espero que você nunca se esqueça do quanto é especial.
+            Você merece coisas bonitas, pessoas verdadeiras
+            e momentos que façam seu coração ficar feliz.
+          </p>
+
+          <div class="signature">
+            <p>Com muito carinho,</p>
+            <p class="signature-name">Sua irmã de consideração 💚</p>
+          </div>
+
+          <div class="divider"><span>✦</span></div>
+
+          <button id="surpriseButton" class="magic-button" type="button">
+            ✨ REVELAR A ÚLTIMA SURPRESA
+          </button>
+
+          <!-- SURPRESA FINAL -->
+          <div id="surprise" class="surprise hidden">
+            <div class="heart">💚</div>
+
+            <h3>Um feitiço para você</h3>
+
+            <p>
+              Se eu pudesse usar minha varinha para realizar
+              um desejo hoje, pediria que a vida lhe devolvesse
+              em felicidade todo o carinho que você merece.
+            </p>
+
+            <p>
+              Que nunca faltem motivos para acreditar,
+              forças para continuar e pessoas que façam
+              você se sentir amada.
+            </p>
+
+            <p class="spell">Accio felicidade! 🪄</p>
+
+            <div class="final-seal">🐍 ✦ 💚 ✦ 🐍</div>
+
+            <p class="final-note">
+              Talvez este cartão seja simples, mas cada pedacinho
+              dele foi feito por mim, especialmente para você.
+              E isso torna este presente único.
+            </p>
+
+            <p class="birthday-wish">FELIZ ANIVERSÁRIO! 🎂</p>
+          </div>
+
+          <p class="footer-note">
+            FEITO COM CARINHO · UMA PEQUENA MAGIA PARA VOCÊ
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>✦</span>
+    <p>MAGIA · CARINHO · SONSERINA</p>
+    <span>✦</span>
+  </footer>
+</body>
+</html>
